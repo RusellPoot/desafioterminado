@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Desafío 1 - Ticket Conferencia</title>
+  <link rel="stylesheet" href="Css/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="form-container">
+    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+    <p>Secure your spot at next year's biggest coding conference.</p>
+
+    <form class="ticket-form" enctype="multipart/form-data">
+      <label for="avatar">Upload Avatar</label>
+      <div class="upload-box">
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+        <p>Drag and drop or click to upload<br><small>(Max size: 500KB)</small></p>
+      </div>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required />
+
+      <label for="github">GitHub Username</label>
+      <input type="text" id="github" name="github" placeholder="@yourusername" required />
+
+      <button type="submit" class="generate-btn">Generate My Ticket</button>
+    </form>
+  </main>
+  
+</body>
+</html>

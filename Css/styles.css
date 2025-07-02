@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #15002b, #2b0057);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  text-align: center;
+  background-color: #1e0033;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ticket-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.ticket-form input[type="text"],
+.ticket-form input[type="email"],
+.ticket-form input[type="file"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.upload-box {
+  border: 2px dashed #888;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #2e0055;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.generate-btn {
+  background-color: #ff5c8d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #ff3370;
+}

@@ -1,0 +1,92 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #15002b, #2b0057);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.confirmation-container {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #ff7ea8;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #ffb3c7;
+}
+
+.email {
+  color: #ff7ea8;
+  font-weight: bold;
+}
+
+.ticket {
+  background: linear-gradient(to right, #2b0057, #3c006e);
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 10px rgba(255, 0, 200, 0.2);
+}
+
+.ticket-content {
+  text-align: left;
+  flex: 1;
+}
+
+.ticket-header {
+  margin-bottom: 15px;
+}
+
+.ticket-date {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.ticket-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.user-info p {
+  color: #ccc;
+  margin: 4px 0 0;
+}
+
+.ticket-code {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 1rem;
+  color: #ffb3c7;
+  margin-left: 20px;
+  font-weight: bold;
+}
